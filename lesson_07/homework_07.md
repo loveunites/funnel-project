@@ -64,7 +64,7 @@
 | 2 | `screens/02-flow.png` | Flow Builder: триггер, Private Reply, кнопка; статус Live | Готово |
 | 3 | `screens/03-trigger.png` | Specific Post и ключевое слово `ГАЙД` | Готово |
 | 4 | `screens/04-comment.png` | Тестовый комментарий и публичный ответ | Готово: `ГАЙД` и автоматический ответ видны под публикацией |
-| 5 | `screens/05-direct.png` | Личное сообщение с кнопкой `Получить материал` | Готово: мобильный кадр показывает сообщение и кнопку |
+| 5 | `screens/05-direct.png` | Личное сообщение с переходом к материалу | Готово: Direct тестового профиля показывает сообщение; мобильный кадр с кнопкой можно приложить дополнительно |
 | 6 | `screens/06-guide-utm.png` | `guide.html` с UTM-параметрами | Готово |
 | 7 | `screens/07-ga4.png` | `page_view` и `generate_lead` в GA4 Realtime | Готово |
 | 8 | `screens/08-lead.png` | Строка заявки с `instagram` / `social` / `backend_guide` | Готово |
