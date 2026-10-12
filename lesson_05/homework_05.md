@@ -6,13 +6,15 @@
 | --- | --- |
 | Сайт | <https://ga4-analytics-lab-prodan.vercel.app/> |
 | Форма | <https://ga4-analytics-lab-prodan.vercel.app/contacts.html> |
+| Исходники сайта | <https://github.com/loveunites/analytics_lab> |
+| Подготовленная ветка сайта | <https://github.com/loveunites/analytics_lab/tree/hw-05> |
 | Ссылка для второй заявки | <https://ga4-analytics-lab-prodan.vercel.app/contacts.html?utm_source=telegram&utm_medium=social&utm_campaign=lesson07> |
 | Measurement ID | `G-BXHYB8CYC5` |
 | Таблица | _Вставить ссылку после создания таблицы_ |
 | Web app `/exec` | _Вставить URL своей публикации после создания Apps Script; текущий опубликованный сайт пока содержит старый URL_ |
 | Ветка | `hw-05` |
 
-> В опубликованном HTML формы уже стоят `action`, `method="POST"`, `target="submission-frame"`, `request_id` и три скрытых поля UTM. В опубликованном `js/script.js` пока остаётся старый обработчик с `preventDefault`; для сдачи его нужно заменить на `lead-form.js` из материалов, подставить свой URL `/exec` и заново опубликовать сайт.
+> В ветке сайта `hw-05` обработчик формы заменён фрагментом из материалов, а загрузчик GA4 исправлен на `G-BXHYB8CYC5`. В опубликованной версии сайта пока остаётся старый обработчик с `preventDefault`: ветку ещё нужно объединить с `main` после подстановки URL **своего** Apps Script Web app и проверить новый Deployment в Vercel.
 
 ## 1. Таблица
 
